@@ -9,6 +9,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
+import com.github.kwhat.jnativehook.GlobalScreen
+import com.github.xuzheng0912.rpa.core.auto.engine.addNativeListener
 
 @Composable
 @Preview

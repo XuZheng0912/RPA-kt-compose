@@ -1,6 +1,6 @@
 package com.github.xuzheng0912.rpa.core.auto.engine
 
-interface NativeActionPlayer {
+interface ActionScriptPlayer {
 
     val isRunning: Boolean
 
