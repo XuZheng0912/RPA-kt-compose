@@ -1,6 +1,12 @@
 [versions]
+changelog = "2.2.1"
+
 ktor = "3.0.3"
 jnativehook = "2.2.2"
+
+
+[plugins]
+changelog = { id = "org.jetbrains.changelog", version.ref = "changelog" }
 
 [libraries]
 #Ktor
